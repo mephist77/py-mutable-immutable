@@ -1,3 +1,5 @@
+from importlib import import_module
+
 lucky_number = 777
 pi = 3.14
 one_is_a_prime_number = False
@@ -16,4 +18,6 @@ marks = {
 }
 collection_of_coins = {1, 2, 25}
 
-# write your code here
+mutable = [my_favourite_films , profile_info , marks , collection_of_coins]
+immutable = [lucky_number , pi , one_is_a_prime_number , name]
+sorted_variables = {"mutable" : mutable , "immutable" : immutable}
